@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ocrean"
+    >
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="Accept"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button"
+        android:layout_centerHorizontal="true"
+        android:text="Nancy"
+        android:textColor="@android:color/background_dark"
+        android:textSize="75sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop
+        android:layout_below="@+id/TextView"
+        android:layout_centerHorizontal="true"
+        android:max_lines="3"
+        android:text="Total Distance: 2km \nAverage # of items/stop: 1 \nTotal amount: $14.05"
+
+        android:textSize="20sp"
+        android:width="180px"
+        android:height="20px"/>
+
+
+</RelativeLayout>
