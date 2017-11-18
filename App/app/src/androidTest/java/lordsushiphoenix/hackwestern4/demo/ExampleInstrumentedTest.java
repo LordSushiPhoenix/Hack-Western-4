@@ -1,4 +1,4 @@
-package comlordsushiphoenix.httpsgithub.hackwestern4demo;
+package lordsushiphoenix.hackwestern4.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
