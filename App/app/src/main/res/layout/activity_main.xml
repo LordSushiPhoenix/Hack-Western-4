@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,8 +7,12 @@
     tools:context="comlordsushiphoenix.httpsgithub.hackwestern4demo.MainActivity">
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="25dp"
         android:text="Hello World! I have done things!!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -19,6 +23,10 @@
         android:id="@+id/CreateOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="76dp"
+        android:layout_marginStart="16dp"
         android:onClick="createOrder"
         android:text="Create Order"
         tools:layout_editor_absoluteX="119dp"
@@ -28,9 +36,13 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="169dp"
+        android:layout_marginStart="91dp"
         android:onClick="viewOrder"
         android:text="View Pending Orders"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="173dp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

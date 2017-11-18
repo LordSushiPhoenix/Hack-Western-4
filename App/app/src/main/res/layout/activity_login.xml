@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:id ="@+id/relativeLayout"
+    android:background="@drawable/hw4">
+
+
+
+        <Button
+            android:id="@+id/Buyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="300dp"
+            android:gravity="end"
+            android:text="Buyer" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/Buyer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="who you are"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:text="Delivery" />
+
+
+
+</RelativeLayout>
