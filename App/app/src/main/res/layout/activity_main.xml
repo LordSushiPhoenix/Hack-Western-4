@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/button2"
-        android:layout_marginBottom="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
         android:text="Hello World! I have done things!!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -23,12 +23,11 @@
         android:id="@+id/CreateOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_marginBottom="76dp"
-        android:layout_marginStart="16dp"
-        android:onClick="createOrder"
-        android:text="Create Order"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:onClick="onDemo1"
+        android:text="Demo 1"
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="84dp" />
 
@@ -36,13 +35,22 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="169dp"
-        android:layout_marginStart="91dp"
-        android:onClick="viewOrder"
-        android:text="View Pending Orders"
+        android:layout_alignStart="@+id/CreateOrder"
+        android:layout_below="@+id/CreateOrder"
+        android:layout_marginTop="73dp"
+        android:onClick="onDemo2"
+        android:text="Demo 2"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_marginBottom="94dp"
+        android:onClick="onDemo3"
+        android:text="Demo 3" />
 
 </RelativeLayout>

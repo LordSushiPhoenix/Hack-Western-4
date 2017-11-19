@@ -1,5 +1,6 @@
 package comlordsushiphoenix.httpsgithub.hackwestern4demo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,14 +16,21 @@ public class MainActivity extends AppCompatActivity {
 
 
     //Opens a page to make a new order
-    public void createOrder(View view){
-        //TODO
+    public void onDemo1(View view){
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
 
     }
 
-    //Opens a page to show available orders
-    public void viewOrder(View view){
-        //TODO
+    public void onDemo2(View view){
+        Intent intent = new Intent(this, ThirdActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void onDemo3(View view){
+        Intent intent = new Intent(this, FourthActivity.class);
+        startActivity(intent);
 
     }
 

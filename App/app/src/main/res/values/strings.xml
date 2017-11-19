@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Hack Western 4 Demo</string>
+    <string name="title_activity_orders_demo1">OrdersDemo1</string>
+    <string name="large_text">
+        "TODO, put shopping list here.\n\n"
+
+        "1.\n"
+        "2.\n"
+        "3.\n"
+        "4.\n"
+        "5\n6\n7\n8\n9\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n"
+        "\n"
+        "Distance:FLOAT_DISTANCE\n"
+        "Estimated Time: FLOAT_EST_TIME\n\n"
+
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>
